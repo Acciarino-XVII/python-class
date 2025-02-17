@@ -1,2 +1,3 @@
 # python-class
- python course ITS LAZIO DIGITAL
+___
+esercizi python del corso cybersecurity ITS LAZIO DIGITAL
