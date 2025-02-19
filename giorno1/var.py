@@ -9,6 +9,7 @@ riga
 x = 5
 y = 10
 
+
 #nomenclatura
 #si possono dichiarare variabili in minuscolo
 
@@ -46,6 +47,7 @@ x = 9
 print(a)
 
 somma = a+b
+
 print("le palle sono è:", somma)
  
 #scoprire il tipo di una variabile
