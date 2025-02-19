@@ -10,7 +10,7 @@ b=tuple("mela","banana","kiw")
 print("--------------------------------")
 
 print("esercizio 3")
-print(" l'wlemento è: ", b[1])
+print(" l'elemento è: ", b[1])
 indice=b.index("banana")
 
 print("--------------------------------")
