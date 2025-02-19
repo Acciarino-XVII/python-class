@@ -99,3 +99,5 @@ while i < len(stringa):
     else:
         print("")
         i+=1
+print("-----------------------------------")
+
