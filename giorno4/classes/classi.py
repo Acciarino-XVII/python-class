@@ -65,3 +65,5 @@ impiegato1 = impiegato("Mario", "Rossi", "12345", 3000)
 print(f"stipendio {impiegato1.stipendio} stipendio con aumento: {impiegato1.aumentoStipendio()}")
 
 print("----------------------------------------------------------------")
+
+
