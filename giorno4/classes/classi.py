@@ -10,6 +10,8 @@ class persona:
 persona1 = persona("marco",20, "maschio")
 print(persona1.presentati())
 
+print("----------------------------------------------------------------")
+
 #esercizio 2
 
 class animale():
@@ -30,6 +32,8 @@ class animale():
 animale1=animale("giorgio", "gatto") 
 print(animale1.verso())
 
+print("----------------------------------------------------------------")
+
 #esercizio 3
 class automobile:
     def __init__(self,marca, modello, anno):
@@ -41,4 +45,23 @@ class automobile:
         return(f"questa macchina è una: {self.marca} {self.modello} del {self.anno}")
 automobile1 = automobile("nissan", "micra", "2007")
 
-print(automobile1.stampa_dati())        
+print(automobile1.stampa_dati())
+
+print("----------------------------------------------------------------")
+
+#esercizio 4
+class impiegato:
+    def __init__(self, nome, cognome, matricola, stipendio):
+        self.nome = nome
+        self.cognome = cognome
+        self.matricola = matricola
+        self.stipendio = stipendio
+    def aumentoStipendio(self):
+        self.aumento = (self.stipendio * 10) / 100
+        self.stipendio += self.aumento
+        return self.stipendio 
+
+impiegato1 = impiegato("Mario", "Rossi", "12345", 3000)
+print(f"stipendio {impiegato1.stipendio} stipendio con aumento: {impiegato1.aumentoStipendio()}")
+
+print("----------------------------------------------------------------")
