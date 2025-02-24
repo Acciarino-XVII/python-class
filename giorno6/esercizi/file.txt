@@ -1,0 +1,17 @@
+aggiungo la riga signor sistemi 
+& "C:/Users/Karim Acciaro/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/Karim Acciaro/OneDrive - Fondazione its academy lazio digital/documenti/Scripts/python-class/giorno6/esercizi/esfile1.py"
+da
+signor sistemi
+ad
+dasd
+dadsasd
+dasd
+pasalle
+dad
+asd
+s
+uno
+due
+tre
+quattro
+cinque

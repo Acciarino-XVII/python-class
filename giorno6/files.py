@@ -1,4 +1,6 @@
 import os
+f = open("file.txt", "w", encoding="utf-8" )
+f.close()
 
 f = open("file.txt", "r")
 # print(f.read())
