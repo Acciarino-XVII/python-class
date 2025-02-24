@@ -1,0 +1,4 @@
+NUOVO FILE:
+ciao a tutti
+questo è un nuovo file
+creato da codice con una lista
