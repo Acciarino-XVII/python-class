@@ -39,14 +39,14 @@ query = "INSERT INTO TB_ESE4_ANAG (COD_DIP, COGNOME, NOME, DATA_NASC, COD_UFF) V
 
 valori = [
     (1, 'RUSSO', 'DIEGO', '23/01/1980', 'A01' ),
-    (2, 'DE FAZI', 'PAOLO', '04-07-1977' 'A02'),
+    (2, 'DE FAZI', 'PAOLO', '04-07-1977', 'A02'),
     (3, 'MAINO', 'ANDREA', '19-09-1975', 'A04'),
     (4 , 'CALIENDO', 'DAVIDE', '31-12-1978', 'A05'),
-    (5, "DELL'ANNO", 'ALBERTO', '09-11-1967', 'A01')
+    (5, "DELLANNO", 'ALBERTO', '09-11-1967', 'A01')
 ]
 
-cursore.execute(query, valori)
-cursore.fetchall() 
+cursore.executemany(query, valori)
+print("daje de pe foh")
 cursore.commit()
 
 cursore.execute(f"TRUNCATE TABLE {nome_tabella}")
